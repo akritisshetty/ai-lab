@@ -8,6 +8,6 @@ Welcome to the **Artificial Intelligence for Business Lab** repository!
 4. **AI and Marketing:** Develop a system to recommend highly targeted content to users of the Website. <br>
 5. **AI and Advertisement:** Develop AI-powered programmatic advertising by using cookies and collecting user data. <br>
 6. **AI and Analytics:** Create analytics dashboard. Integrate Google Analytics with the dashboard. Use AI tool (Open) to draw from the existing data to make predictions. <br>
-7. **Public relations, communications, and AI:** Design presentations with smart templates using open source AI-driven presentation tools (Open). Use AI-powered design tools (Open) to create branding for collateral. <br>
+7. **Public relations, communications, and AI:** Design presentations with smart templates using open source AI-driven presentation tools (Open). Use AI-powered design tools (Open) to create branding for collateral. {not added here} <br>
 8. **Content Marketing and AI:** Demonstrate content development using an AI-powered language platform. <br>
 **Customer Service and AI:** Demonstrate intelligent product searches and discoveries possible across text, voice, and visual searches on e-commerce websites using AI tools. <br>
