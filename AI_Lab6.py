@@ -7,16 +7,12 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 
-# -----------------------------
 # GA4 SETUP
-# -----------------------------
 PROPERTY_ID = "{YOUR_PROPERTY_ID}"
 
 client = BetaAnalyticsDataClient.from_service_account_json("credentials.json")
 
-# -----------------------------
 # FUNCTION TO FETCH DATA
-# -----------------------------
 def fetch_data(days):
     request = RunReportRequest(
         property=f"properties/{PROPERTY_ID}",
@@ -36,9 +32,7 @@ def fetch_data(days):
 
     return pd.DataFrame(data)
 
-# -----------------------------
 # DASH APP
-# -----------------------------
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
@@ -69,8 +63,6 @@ def update_graph(date_range):
 
     return fig
 
-# -----------------------------
 # RUN APP
-# -----------------------------
 if __name__ == '__main__':
     app.run(debug=True)
